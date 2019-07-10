@@ -18,7 +18,6 @@ uses
 
 type
   TForm1 = class(TForm)
-	MIDIInput1: TMIDIInput;
 	lstLog: TListBox;
 	pnlColumnHeading: TPanel;
 	MidiOutput1: TMidiOutput;
@@ -29,6 +28,7 @@ type
 	cmbInput: TComboBox;
 	cmbOutput: TComboBox;
 	Bevel1: TBevel;
+    MIDIInput1: TMidiInput;
 	procedure MIDIInput1MidiInput(Sender: TObject);
 	procedure LogMessage(ThisEvent:TMyMidiEvent);
 	procedure FormCreate(Sender: TObject);
